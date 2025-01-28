@@ -51,6 +51,7 @@ document.getElementById('submit').addEventListener('click', function(event) {
           });
         }
       })
+
       .catch(err => {
         // Fehler bei der Anfrage (z.B. Netzwerkfehler)
         console.error('Fehler bei der Anfrage:', err);
